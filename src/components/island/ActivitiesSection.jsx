@@ -41,7 +41,7 @@ const activities = [
   },
   {
     name: "Island Cuisine Tour",
-    description: "Savor the flavors of Isla Serena with a guided culinary tour through local markets and kitchens.",
+    description: "Savor the flavors of Taniti Island with a guided culinary tour through local markets and kitchens.",
     icon: UtensilsCrossed,
     duration: "3 hours",
     image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
@@ -55,7 +55,7 @@ export default function ActivitiesSection() {
         <SectionHeader
           label="Explore & Experience"
           title="Activities"
-          description="From thrilling ocean adventures to serene wellness rituals, every moment on Isla Serena is crafted for wonder."
+          description="From thrilling ocean adventures to serene wellness rituals, every moment on Taniti Island is crafted for wonder."
         />
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

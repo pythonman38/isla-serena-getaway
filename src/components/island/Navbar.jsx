@@ -39,7 +39,7 @@ export default function Navbar() {
             }`}
             style={{ fontFamily: "'Georgia', serif" }}
           >
-            Isla Serena
+            Taniti Island
           </a>
 
           {/* Desktop nav */}

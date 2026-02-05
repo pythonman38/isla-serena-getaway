@@ -33,7 +33,7 @@ export default function HeroSection() {
           className="mb-6 text-5xl font-bold leading-tight tracking-tight md:text-7xl lg:text-8xl"
           style={{ fontFamily: "'Georgia', serif" }}
         >
-          Isla Serena
+          Taniti Island
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}

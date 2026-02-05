@@ -58,7 +58,7 @@ export default function TransportSection() {
         <SectionHeader
           label="Getting Here & Around"
           title="Transportation"
-          description="Whether by air or sea, your journey to Isla Serena is as enchanting as the destination itself."
+          description="Whether by air or sea, your journey to Taniti Island is as enchanting as the destination itself."
         />
 
         <div className="space-y-8">

@@ -29,7 +29,7 @@ export default function CallToAction() {
           Ready to Escape?
         </h2>
         <p className="mb-10 text-base leading-relaxed text-white/80 md:text-lg">
-          Reserve your stay at Isla Serena and discover a world where time slows
+          Reserve your stay at Taniti Island and discover a world where time slows
           down, nature comes alive, and every sunset feels like a private
           performance.
         </p>

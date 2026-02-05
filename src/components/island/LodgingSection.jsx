@@ -40,7 +40,7 @@ export default function LodgingSection() {
         <SectionHeader
           label="Stay With Us"
           title="Lodging"
-          description="Choose from our curated collection of accommodations, each designed to immerse you in the natural beauty of Isla Serena."
+          description="Choose from our curated collection of accommodations, each designed to immerse you in the natural beauty of Taniti Island."
         />
 
         <div className="grid gap-8 md:grid-cols-3">

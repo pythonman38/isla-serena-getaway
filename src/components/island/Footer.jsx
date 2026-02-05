@@ -12,7 +12,7 @@ export default function Footer() {
               className="mb-3 text-2xl font-bold tracking-tight"
               style={{ fontFamily: "'Georgia', serif" }}
             >
-              Isla Serena
+              Taniti Island
             </h3>
             <p className="text-sm leading-relaxed text-slate-400">
               A secluded paradise in the South Pacific where luxury meets
@@ -82,7 +82,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0 text-sky-400" />
                 <span className="text-sm text-slate-400">
-                  Isla Serena, South Pacific <br /> Latitude -16.5°, Longitude -151.7°
+                  Taniti Island, South Pacific <br /> Latitude -16.5°, Longitude -151.7°
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -91,7 +91,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 flex-shrink-0 text-sky-400" />
-                <span className="text-sm text-slate-400">hello@islaserena.com</span>
+                <span className="text-sm text-slate-400">hello@tanitiisland.com</span>
               </li>
             </ul>
           </div>
@@ -100,7 +100,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 border-t border-slate-800 pt-8 text-center">
           <p className="text-xs text-slate-500">
-            © 2026 Isla Serena Resort & Spa. All rights reserved. This is a
+            © 2026 Taniti Island Resort & Spa. All rights reserved. This is a
             fictitious establishment for demonstration purposes.
           </p>
         </div>
