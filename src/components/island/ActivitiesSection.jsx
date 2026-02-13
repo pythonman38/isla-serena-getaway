@@ -5,6 +5,13 @@ import SectionHeader from "./SectionHeader";
 
 const activities = [
   {
+    name: "Island Orientation Tour",
+    description: "Perfect for first-time visitors! Discover Taniti's highlights, local culture, and hidden gems on this guided introduction to the island.",
+    icon: Compass,
+    duration: "2 hours",
+    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80",
+  },
+  {
     name: "Snorkeling & Diving",
     description: "Explore vibrant coral reefs teeming with tropical fish and sea turtles in crystal-clear waters.",
     icon: Fish,
