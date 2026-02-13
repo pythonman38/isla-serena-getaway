@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Star, Waves, TreePalm, Mountain } from "lucide-react";
 import SectionHeader from "./SectionHeader";
+import BookingForm from "./BookingForm";
 
 const lodgings = [
   {
@@ -43,7 +44,7 @@ export default function LodgingSection() {
           description="Choose from our curated collection of accommodations, each designed to immerse you in the natural beauty of Taniti Island."
         />
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="mb-16 grid gap-8 md:grid-cols-3">
           {lodgings.map((lodging, index) => (
             <motion.div
               key={lodging.name}
@@ -107,6 +108,16 @@ export default function LodgingSection() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mx-auto max-w-md"
+        >
+          <BookingForm />
+        </motion.div>
       </div>
     </section>
   );
