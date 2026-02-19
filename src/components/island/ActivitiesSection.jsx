@@ -76,7 +76,7 @@ export default function ActivitiesSection() {
               className="group relative cursor-pointer overflow-hidden rounded-2xl w-full"
             >
               {/* Background image */}
-              <div className="relative h-72">
+              <div className="relative h-64 sm:h-72">
                 <img
                   src={activity.image}
                   alt={activity.name}
