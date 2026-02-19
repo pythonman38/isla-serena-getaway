@@ -30,7 +30,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mb-6 text-5xl font-bold leading-tight tracking-tight md:text-7xl lg:text-8xl"
+          className="mb-6 text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-7xl lg:text-8xl"
           style={{ fontFamily: "'Georgia', serif" }}
         >
           Taniti Island
@@ -39,7 +39,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="mb-10 max-w-xl text-lg font-light leading-relaxed text-white/90 md:text-xl"
+          className="mb-10 max-w-xl px-2 text-base font-light leading-relaxed text-white/90 md:text-xl"
         >
           A secluded tropical sanctuary where turquoise waters meet pristine white sands.
           Discover your escape at the edge of the world.

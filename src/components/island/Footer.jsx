@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900 px-6 py-16 text-white">
       <div className="mx-auto max-w-7xl">
-        <div className="grid gap-12 md:grid-cols-4">
+        <div className="grid gap-10 grid-cols-2 md:grid-cols-4">
           {/* Brand */}
-          <div className="md:col-span-1">
+          <div className="col-span-2 md:col-span-1">
             <h3
               className="mb-3 text-2xl font-bold tracking-tight"
               style={{ fontFamily: "'Georgia', serif" }}

@@ -74,7 +74,7 @@ export default function TransportSection() {
               <div className="flex flex-col md:flex-row">
                 {/* Icon / Visual Section */}
                 <div
-                  className={`flex items-center justify-center bg-gradient-to-br ${transport.color} p-8 md:w-56 md:p-12`}
+                  className={`flex items-center justify-center bg-gradient-to-br ${transport.color} p-6 md:w-56 md:p-12`}
                 >
                   <div className="rounded-2xl bg-white/20 p-5 backdrop-blur-sm transition-transform duration-500 group-hover:scale-110">
                     <transport.icon className="h-10 w-10 text-white" />
@@ -91,11 +91,11 @@ export default function TransportSection() {
                   </p>
 
                   {/* Details Grid */}
-                  <div className="mb-5 grid grid-cols-3 gap-4">
+                  <div className="mb-5 grid grid-cols-3 gap-2 sm:gap-4">
                     {transport.details.map((detail) => (
                       <div
                         key={detail.label}
-                        className={`rounded-xl ${transport.bgAccent} p-3 text-center`}
+                        className={`rounded-xl ${transport.bgAccent} p-2 sm:p-3 text-center`}
                       >
                         <detail.icon
                           className={`mx-auto mb-1 h-4 w-4 ${transport.textAccent}`}

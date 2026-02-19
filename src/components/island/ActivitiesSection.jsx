@@ -73,7 +73,7 @@ export default function ActivitiesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative cursor-pointer overflow-hidden rounded-2xl"
+              className="group relative cursor-pointer overflow-hidden rounded-2xl w-full"
             >
               {/* Background image */}
               <div className="relative h-72">

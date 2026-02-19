@@ -23,7 +23,7 @@ export default function CallToAction() {
           Your Paradise Awaits
         </p>
         <h2
-          className="mb-6 text-3xl font-bold leading-tight md:text-5xl"
+          className="mb-6 text-2xl font-bold leading-tight sm:text-3xl md:text-5xl"
           style={{ fontFamily: "'Georgia', serif" }}
         >
           Ready to Escape?
